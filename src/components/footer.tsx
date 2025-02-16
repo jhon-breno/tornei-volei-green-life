@@ -9,14 +9,14 @@ const Footer = () => {
       <div className="flex flex-col gap-3 items-start justify-center">
         <Link
           className="flex gap-2 items-center justify-center"
-          href="https:www.github.com/jhonbreno"
+          href="https://github.com/jhon-breno"
           target="_blank"
         >
           <Github size={24} /> Github
         </Link>
         <Link
           className="flex gap-2"
-          href="https://www.linkedin.com/in/jhon-breno-0b1b3b1b3/"
+          href="https://www.linkedin.com/in/jhonbrenocosta/"
           target="_blank"
         >
           <Linkedin size={24} />
