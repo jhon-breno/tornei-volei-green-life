@@ -1,19 +1,25 @@
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Header from "@/components/header";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <Sheet>
-        <SheetTrigger>
-          <Button>Login</Button>
-        </SheetTrigger>
-        <SheetContent>
-          <h2>Login</h2>
-          <p>Content</p>
-        </SheetContent>
-      </Sheet>
+      {/* header */}
+      <Header />
+      <div className="p-5">
+        <h2 className="text-xl font-bold">Olá, Jhon!</h2>
+        <p>Sábado, 15 de fevereiro</p>
+        <p>Seja bem vindo ao nosso torneio Green Life</p>
+      </div>
+      {/* Banner com a imagem do tornei */}
+      <div className="p-5">
+        <Image
+          src="/banner.jpg"
+          height={150}
+          width={700}
+          alt="Banner do torneio"
+        />
+      </div>
     </div>
   );
 }
