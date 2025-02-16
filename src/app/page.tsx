@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Home</h1>
       <Sheet>
         <SheetTrigger>
-          <Button variant="outline">Login</Button>
+          <Button>Login</Button>
         </SheetTrigger>
         <SheetContent>
           <h2>Login</h2>
